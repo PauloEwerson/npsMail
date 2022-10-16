@@ -59,7 +59,7 @@ O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wik
   $ git clone https://github.com/PauloEwerson/npsMail.git
 ```
     
-2. Entre no diretório do projeto
+2. Entre no diretório do projeto:
 
 ```bash
   cd npsMail
