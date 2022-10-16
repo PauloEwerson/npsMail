@@ -27,7 +27,7 @@
 
 ## :bookmark: Sobre
 
-O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wikipedia.org/wiki/Net_Promoter_Score) da empresa, esenvolvido durante a trilha de NodeJS, na quarta edição da NLW. Aprendemos conceitos sobre o que é um API, como iniciar um projeto utilizando Typescript e Express para gerenciamento das rotas, TypeORM para manipulação dos dados, testes automatizados e envio de e-mail.
+O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wikipedia.org/wiki/Net_Promoter_Score) da empresa, desenvolvido durante a trilha de NodeJS, na quarta edição da NLW. Aprendemos conceitos sobre o que é um API, como iniciar um projeto utilizando Typescript e Express para gerenciamento das rotas, TypeORM para manipulação dos dados, testes automatizados e envio de e-mail.
 
 ## :gear: Funcionalidades
 
