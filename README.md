@@ -7,6 +7,7 @@
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/PauloEwerson/npsMail?style=flat-square">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/PauloEwerson/npsMail?style=flat-square">
+  <img alt="GitHub" src="https://img.shields.io/github/license/PauloEwerson/npsMail?style=flat-square"> 
 </p>
 
 <p align="center">
