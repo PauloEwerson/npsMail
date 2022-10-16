@@ -72,7 +72,7 @@ O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wik
   $ yarn # ou npm install
   
   # Configurando o banco de dados e criando as tabelas.
-  $ yarn migrate # ou npm run migration:run
+  $ yarn migrate # ou npm run migrate
 
   # Inicie a API (modo de desenvolvimento)
   $ yarn dev # ou npm run dev
