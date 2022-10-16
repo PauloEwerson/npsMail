@@ -14,6 +14,7 @@
   <a href="#gear-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#scientist-rodando-os-testes">Rodando os Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -67,9 +68,11 @@ O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wik
   $ yarn dev # ou npm run dev
 ```
 
-3. Executando testes:
+## :scientist: Rodando os Testes
 
-```sh
+Para rodar os testes, execute o seguinte comando
+
+```bash
   $ yarn test # ou npm run test
 ```
 
