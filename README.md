@@ -14,6 +14,7 @@
   <a href="#gear-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#lock-variáveis-de-ambiente">Variáveis de Ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#scientist-rodando-os-testes">Rodando os Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -49,13 +50,19 @@ O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wik
   - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
   - Também, é **necessário** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
   
-1. Clonando o repositório:
+1. Clone o repositório:
 
 ```sh
   $ git clone https://github.com/PauloEwerson/npsMail.git
 ```
+    
+2. Entre no diretório do projeto
 
-2. Executando a aplicação:
+```bash
+  cd npsMail
+```
+
+3. Execute a aplicação:
 
 ```sh
   # Instalando as dependências do projeto.
@@ -67,6 +74,14 @@ O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wik
   # Inicie a API (modo de desenvolvimento)
   $ yarn dev # ou npm run dev
 ```
+    
+## :lock: Variáveis de Ambiente
+
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+
+`NODE_ENV=development`
+`API_PORT=3333`
+`URL_MAIL=http://localhost:3333/answers`
 
 ## :scientist: Rodando os Testes
 
