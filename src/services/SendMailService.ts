@@ -17,7 +17,6 @@ class SendMailService {
                     pass: account.pass,
                 },
             });
-
             this.client = transporter;
         });
     }
