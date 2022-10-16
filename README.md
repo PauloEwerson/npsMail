@@ -1,6 +1,6 @@
 <h1 align="center">
-    <img alt="npsMail" src=".github/npsMail.png" height="100px" />
-    <br>
+    <img alt="npsMail" src=".github/npsMail.png" height="300px" />
+    </br>
     Node.js
 </h1>
 
@@ -69,7 +69,7 @@ O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wik
   $ yarn # ou npm install
   
   # Configurando o banco de dados e criando as tabelas.
-  $ yarn migration:run # ou npm run migration:run
+  $ yarn migrate # ou npm run migration:run
 
   # Inicie a API (modo de desenvolvimento)
   $ yarn dev # ou npm run dev
