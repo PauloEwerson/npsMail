@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "migration:test": "ts-node-dev --transpile-only ./node_modules/typeorm/cli.js migration:run",
+    "migrate": "ts-node-dev --transpile-only ./node_modules/typeorm/cli.js migration:run",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
     "test": "cross-env NODE_ENV=test jest"
   },
