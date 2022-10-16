@@ -17,6 +17,7 @@
   <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#lock-variáveis-de-ambiente">Variáveis de Ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#scientist-rodando-os-testes">Rodando os Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#clipboard-diagrama">Diagrama</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -33,6 +34,7 @@ O **npsMail** é uma aplicação que consiste em calcular o [NPS](https://pt.wik
 - Cadastro de usuários
 - Cadastro de pesquisas
 - Envio de e-mail
+- Recebimento da resposta
 
 ## :rocket: Tecnologias
 
@@ -92,9 +94,15 @@ Para rodar os testes, execute o seguinte comando
   $ yarn test # ou npm run test
 ```
 
+## :clipboard: Diagrama
+    
+<p align="left">
+  <img alt="mockup do projeto" width="650px" src="./.github/diagrama.png" />
+<p>
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-<sup>Projeto desenvolvido com a tutoria de [Diego Fernandes](https://github.com/diego3g), CTO [Rocketseat](rocketseat.com.br).</sup>
+<sup>Projeto desenvolvido com a tutoria da [Rocketseat](rocketseat.com.br).</sup>
