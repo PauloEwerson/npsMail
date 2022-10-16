@@ -5,11 +5,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "migration:run": "ts-node-dev --transpile-only ./node_modules/typeorm/cli.js migration:run",
+    "migration:test": "ts-node-dev --transpile-only ./node_modules/typeorm/cli.js migration:run",
     "typeorm": "ts-node-dev node_modules/typeorm/cli.js",
     "test": "cross-env NODE_ENV=test jest"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "handlebars": "^4.7.7",

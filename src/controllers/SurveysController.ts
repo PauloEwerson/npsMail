@@ -14,7 +14,7 @@ class SurveysController {
 
         await surveysRepository.save(survey);
 
-        return response.status(281).json(survey);
+        return response.status(201).json(survey);
     }
 
     async show(request: Request, response: Response) {

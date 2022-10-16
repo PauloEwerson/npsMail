@@ -6,6 +6,7 @@ import { SurveysRepository } from "../repositories/SurveysRepository";
 import { SurveysUserRepository } from "../repositories/SurveysUsersRepository";
 import { UsersRepository } from "../repositories/UsersRepository";
 import SendMailService from "../services/SendMailService";
+require('dotenv').config();
  
 class SendMailController {
     async execute(request: Request, response: Response){
@@ -41,9 +42,10 @@ class SendMailController {
             title: survey.title,
             description: survey.description,
             id: "",
+            // link: 'http://localhost:3333/answers'
             link: process.env.URL_MAIL
         };
-
+        console.log('===> AQUI', variables)
         if(surveyUserAlreadyExists){
             variables.id = surveyUserAlreadyExists.id;
             await SendMailService.execute(email, survey.title, variables, npsPath );
